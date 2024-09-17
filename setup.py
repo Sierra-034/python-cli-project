@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'db = my_module:cli',
+            'cli = my_module:hello',
         ],
     },
 )
